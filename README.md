@@ -90,22 +90,6 @@ jobs:
 
 ---
 
-## ✅ GitLab CI/CD – `.gitlab-ci.yml`
-
-```yaml
-stages:
-  - test
-
-test:
-  image: python:3.10
-  stage: test
-  script:
-    - pip install -r requirements.txt
-    - pytest
-```
-
----
-
 ## 💡 How to Run It
 
 ### For GitHub:
